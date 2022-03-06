@@ -10,5 +10,5 @@ number2=var_int%10
 var_int//=10
 number3=var_int%10
 number4=var_int//10
-sum_even_digits=(1-number1%2)+(1-number2%2)+(1-number3%2)+(1-number4%2)
-print(sum_even_digits)
+even_digits=(1-number1%2)+(1-number2%2)+(1-number3%2)+(1-number4%2)
+print(even_digits)
